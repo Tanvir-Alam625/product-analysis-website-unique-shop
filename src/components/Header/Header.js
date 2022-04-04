@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import CustomLink from "../CustomLink/CustomLink";
-import { BeakerIcon, MenuIcon } from "@heroicons/react/solid";
+import { BeakerIcon, MenuIcon, XIcon } from "@heroicons/react/solid";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
   return (
     <div className="py-6 flex relative flex-col lg:flex-row justify-between px-2 md:px-8 lg:px-28 bg-green-100 items-start lg:items-center">
-      <h2 className="text-6xl font-bold text-purple-600">Sand Timer</h2>
+      <Link to="/">
+        <h2 className="text-6xl font-bold text-purple-600">Sand Timer</h2>
+      </Link>
       <nav
         className={`nav-items flex flex-col lg:flex-row mt-20 lg:mt-0 w-full lg:w-auto bg-green-100 absolute left-[-100%] z-10  lg:static duration-300 ${
           open ? "left-[0px]" : "left-[-100%]"
@@ -48,6 +50,7 @@ const Header = () => {
           Reviews
         </CustomLink>
       </nav>
+
       <MenuIcon
         onClick={() => setOpen(!open)}
         className=" h-8 w-8 md:h-12 md:w-12 text-red-500 absolute top-12 cursor-pointer right-8 block lg:hidden"
