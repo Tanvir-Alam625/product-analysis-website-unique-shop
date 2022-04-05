@@ -2,7 +2,14 @@
 
 This project was bootstrapped with [Live Project Link](https://github.com/facebook/create-react-app).
 
-Markup: \* In this project something product comes and customer and reviews are shown there. \* In this project something product comes and customer and reviews are shown there. \* In this project something product comes and customer and reviews are shown there. \* In this project something product comes and customer and reviews are shown there.
+Markup: _ In this project something product comes and customer and reviews are shown there.
+_ In this project something product comes and customer and reviews are shown there.
+
+This will create a bullet point list in your markdown
+Markup : _ Bullet list
+_ Nested bullet
+_ Sub-nested bullet etc
+_ Bullet list item 2
 
 ## Available Scripts
 
