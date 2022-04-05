@@ -4,48 +4,48 @@
         "name": "Kamrul Hasan",
         "comment":"My wife is a Middle School Teacher and was looking for a 5 minute sand timer to help time activities to keep students on track. Her requirements were (1) Sand Timer (2) Pretty - either Green or Blue (3) It must be accurate (4) It must be able to withstand middle school kids without breaking.",
         "rating":4.5,
-        "img": "./image/review (1).jpg"
+        "img": "./image/review  (1).jpg"
     },
     {
         "id":2,
         "name": "Hasan Khan",
         "comment":"We timed it against a stop watch and it ran exactly 5 minutes (very surprising). Requirement 4 - After numerous weeks in school, it is still working without issue, no damages at all. Requirement 5 - No Glass. Very Safe! The timer is about 5 1/2 inches tall and the green really makes it stand out and visible. My wife is very pleased with the product.",
         "rating":3.5,
-        "img": "./image/review (2).jpg"
+        "img": "./image/review  (2).jpg"
     },
     {
         "id":3,
         "name": "Tanvir Khan",
         "comment":"I am a 45 year old fully grown man (not exactly a schoolboy anymore…) but i use this product the same way it’s used with school children: to help me focus on work-related tasks, and manage my ADD.",
         "rating":2.5,
-        "img": "./image/review (3).jpg"
+        "img": "./image/review  (1).png"
     },
     {
         "id":4,
         "name": "Rubel Hasnain",
         "comment":"The end caps on this timer are huge, making it hard to see the sand, unless you are looking at it straight on. ❤",
         "rating":4.5,
-        "img": "./image/review (4).jpg"
+        "img": "./image/review  (3).jpg"
     },
     {
         "id":5,
         "name": "G. Johon ",
         "comment":"Was really excited to use this timer with my class. The first day we took it out of the box to use, it was knocked over on the table and cracked the inner glass layer spilling all the sand out of the timer and into the plastic cover. ❤",
         "rating":4.5,
-        "img": "./image/review (5).jpg"
+        "img": "./image/review  (4).jpg"
     },
     {
         "id":6,
         "name": "Hasan",
         "comment":"i got three of these. the first one i got is fully functional and i used it for a year and wanted to get another for backup. the new one arrived in bad shape. it rattled when i lifted it. the first one was a four minute timer at approximately 4 minutes and ten seconds. the backup i got was only 3 1/2 minutes. ❤!!!!!!",
         "rating":4.5,
-        "img": "./image/review (1).jpg"
+        "img": "./image/review  (5).jpg"
     },
     {
         "id":7,
         "name": "Mohosin Alam",
         "comment":"This is a nice sized sand timer with brightly colored end caps and sand, which is great. I bought a 1 minute timer and while I wasn't expecting it to run exactly one minute, it runs over by a full 13 seconds, which is almost a 25% variance.!!!!",
         "rating":3.5,
-        "img": "./image/review (6).jpg"
+        "img": "./image/review  (6).jpg"
     }
 ]
