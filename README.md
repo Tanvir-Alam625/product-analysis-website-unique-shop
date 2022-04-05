@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Live Project Link](https://github.com/facebook/create-react-app).
 
--In this project something product comes and customer and reviews are shown there.
+Markup: \* In this project something product comes and customer and reviews are shown there. \* In this project something product comes and customer and reviews are shown there. \* In this project something product comes and customer and reviews are shown there. \* In this project something product comes and customer and reviews are shown there.
 
 ## Available Scripts
 
