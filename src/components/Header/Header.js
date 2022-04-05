@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CustomLink from "../CustomLink/CustomLink";
-import { BeakerIcon, MenuIcon, XIcon } from "@heroicons/react/solid";
+import { MenuIcon } from "@heroicons/react/solid";
 import { Link } from "react-router-dom";
 const Header = () => {
   const [open, setOpen] = useState(false);
