@@ -3,8 +3,9 @@ import useCustomerData from "../../hooks/useCustomerData";
 import Customer from "../Customer/Customer";
 import Slider from "../sand-removebg-preview.png";
 import { useNavigate } from "react-router-dom";
+import Spinner from "../Spinner/Spinner";
 const Home = () => {
-  const [customer, setCustomer] = useCustomerData();
+  const [customer, setCustomer, spinner] = useCustomerData();
   const navigate = useNavigate();
   const customerData = customer.slice(0, 3);
   console.log(customerData);
@@ -38,9 +39,11 @@ const Home = () => {
           Customer Reviews(3)
         </h2>
         <div className="customer w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 max-w-screen-lg">
-          {customerData.map((data) => (
-            <Customer key={data.id} data={data} />
-          ))}
+          {spinner ? (
+            <Spinner />
+          ) : (
+            customerData.map((data) => <Customer key={data.id} data={data} />)
+          )}
         </div>
 
         <div className="btn flex justify-center">
