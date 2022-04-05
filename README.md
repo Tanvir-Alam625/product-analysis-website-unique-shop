@@ -1,18 +1,14 @@
 # My project name is Sand Timer
 
-This project was bootstrapped with [Live Project Link](https://github.com/facebook/create-react-app).
+[Live Project Link](https://github.com/facebook/create-react-app).
 
-Markup: _ In this project something product comes and customer and reviews are shown there.
-_ In this project something product comes and customer and reviews are shown there.
+- In this project something product comes and customer and reviews are shown there.
 
-This will create a bullet point list in your markdown
-Markup : \_ Bullet list \
+* And the product details are shown in a few charts on the dashboard.
 
-- Nested bullet
+* This project is created with reactjs and tailwindcss is used in some of the react's libraries.
 
-* Sub-nested bullet etc
-
-* Bullet list item 2
+* It is made for programming heroes and assignments
 
 ## Available Scripts
 
