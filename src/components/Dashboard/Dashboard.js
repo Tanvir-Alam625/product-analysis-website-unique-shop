@@ -26,7 +26,7 @@ const Dashboard = () => {
   const data = [...chart];
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 my-12 justify-center items-center px-12 gap-2">
+    <div className="grid grid-cols-1 lg:grid-cols-2 lg:my-12 my-4 justify-center items-center px-12 gap-2">
       {/* line chart revenue  */}
       <div className="revenue-line">
         <h2 className="text-3xl text-center font-semibold text-purple-600 my-4">
