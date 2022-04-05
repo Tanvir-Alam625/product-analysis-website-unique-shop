@@ -5,18 +5,20 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="py-6 flex relative flex-col lg:flex-row justify-between px-2 md:px-8 lg:px-28 bg-green-100 items-start lg:items-center">
+    <div className="py-4 flex relative flex-col lg:flex-row justify-between px-2 md:px-8 lg:px-28 bg-purple-100 items-start lg:items-center">
       <Link to="/">
-        <h2 className="text-6xl font-bold text-purple-600">Sand Timer</h2>
+        <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold text-purple-600">
+          Sand Timer
+        </h2>
       </Link>
       <nav
-        className={`nav-items flex flex-col lg:flex-row mt-20 lg:mt-0 w-full lg:w-auto bg-green-100 absolute left-[-100%] z-10  lg:static duration-300 ${
+        className={`nav-items flex flex-col lg:flex-row mt-12 pb-4 lg:pb-0 lg:mt-0 w-full lg:w-auto bg-purple-100 absolute left-[-100%] z-10  lg:static duration-300 ${
           open ? "left-[0px]" : "left-[-100%]"
         }  `}
       >
         <CustomLink
           onClick={() => setOpen(!open)}
-          className="ml-4 text-xl mt-12 lg:mt-0 hover:border-green-600"
+          className="ml-4 text-xl mt-12 lg:mt-0 "
           to="/"
         >
           Home
@@ -53,7 +55,7 @@ const Header = () => {
 
       <MenuIcon
         onClick={() => setOpen(!open)}
-        className=" h-8 w-8 md:h-12 md:w-12 text-red-500 absolute top-12 cursor-pointer right-8 block lg:hidden"
+        className=" h-8 w-8 md:h-12 md:w-12 text-red-500 absolute top-4 cursor-pointer right-2 block lg:hidden"
       />
     </div>
   );
