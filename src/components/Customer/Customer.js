@@ -5,7 +5,6 @@ import { ChevronLeft, ChevronRightTwoTone } from "@mui/icons-material";
 
 export default function Customer({ data }) {
   const [open, setOpen] = useState(false);
-  console.log(open);
   const { name, img, comment, rating } = data;
   return (
     <div className="border rounded-lg p-4 my-4 w-full">

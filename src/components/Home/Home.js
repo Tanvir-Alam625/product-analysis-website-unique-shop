@@ -2,8 +2,10 @@ import React from "react";
 import useCustomerData from "../../hooks/useCustomerData";
 import Customer from "../Customer/Customer";
 import Slider from "../sand-removebg-preview.png";
+import { useNavigate } from "react-router-dom";
 const Home = () => {
   const [customer, setCustomer] = useCustomerData();
+  const navigate = useNavigate();
   const customerData = customer.slice(0, 3);
   console.log(customerData);
   return (
@@ -42,7 +44,10 @@ const Home = () => {
         </div>
 
         <div className="btn flex justify-center">
-          <button className="text-center py-2 px-4 bg-purple-500  text-xl rounded  hover:text-white">
+          <button
+            onClick={() => navigate("/reviews")}
+            className="text-center py-2 px-4 bg-purple-500  text-xl rounded  hover:text-white"
+          >
             See All Reviews
           </button>
         </div>
