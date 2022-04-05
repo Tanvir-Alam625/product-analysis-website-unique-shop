@@ -6,10 +6,13 @@ Markup: _ In this project something product comes and customer and reviews are s
 _ In this project something product comes and customer and reviews are shown there.
 
 This will create a bullet point list in your markdown
-Markup : _ Bullet list
-_ Nested bullet
-_ Sub-nested bullet etc
-_ Bullet list item 2
+Markup : \_ Bullet list \
+
+- Nested bullet
+
+* Sub-nested bullet etc
+
+* Bullet list item 2
 
 ## Available Scripts
 
