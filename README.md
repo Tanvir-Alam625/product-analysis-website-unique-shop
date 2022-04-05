@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# My project name is Sand Timer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Live Project Link](https://github.com/facebook/create-react-app).
+
+-In this project something product comes and customer and reviews are shown there.
 
 ## Available Scripts
 
